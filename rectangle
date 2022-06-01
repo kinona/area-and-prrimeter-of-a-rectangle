@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std ;
+
+
+ int  main (){
+ 	int width ,length, area, perimeter;
+ 	cout<<"input the width of a rectangle";
+ 	cin>>width;
+ 	cout<<"input the length of a rectangle";
+ 	cin<<length;
+ 	 area = width * length;
+ 	 perimeter = 2 *(width + length);
+ 	  cout<< "area of the rectangle" << area<<endl;
+ 	  cout<<"perimeter of the rectangle"<<perimeter<<endl;
+ 	 
+
+
+
+
+return 0;
+}
